@@ -7,8 +7,8 @@
 <title>Insert title here</title>
 </head>
 <!-- CSS件 -->
-<link rel="stylesheet" href="/css/bootstrap.min.css">
-<link rel="stylesheet" href="/css/customer/index.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/bootstrap.min.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/customer/index.css">
 <body>
 	<div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
 		<div class="container">
@@ -78,6 +78,6 @@
       </div>
     </div>
 	<script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
+	<script src="<%=request.getContextPath()%>/js/bootstrap.min.js"></script>
 </body>
 </html>

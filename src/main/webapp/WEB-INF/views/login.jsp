@@ -11,8 +11,8 @@
 <title>用户登录</title>
 </head>
 <!-- CSS件 -->
-<link rel="stylesheet" href="/css/bootstrap.min.css">
-<link rel="stylesheet" href="/css/customer/login.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/bootstrap.min.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/customer/login.css">
 <body>
 	<div class="container">
 		<form class="form-signin" action="login" method="post">
@@ -25,6 +25,6 @@
 	</div>
 
 	<script src="http://code.jquery.com/jquery.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
+	<script src="<%=request.getContextPath()%>/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -10,6 +10,11 @@ import javax.persistence.Table;
 @Table(name="address")
 public class AddressEntity extends BaseEntity {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	private String address;
 
 	private boolean isDefault;

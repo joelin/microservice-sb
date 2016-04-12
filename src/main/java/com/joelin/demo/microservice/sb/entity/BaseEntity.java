@@ -1,5 +1,6 @@
 package com.joelin.demo.microservice.sb.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 
 import javax.persistence.GeneratedValue;
@@ -8,7 +9,12 @@ import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 
 @MappedSuperclass
-public abstract class BaseEntity {
+public abstract class BaseEntity implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4815864888767847812L;
 
 	public static final int STATUS_VALID = 1;
 

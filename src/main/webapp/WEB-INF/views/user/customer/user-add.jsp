@@ -9,9 +9,9 @@
 <title>Project Management</title>
 
 <!-- CSS件 -->
-<link rel="stylesheet" href="/css/bootstrap.min.css">
-<link rel="stylesheet" href="/css/customer/home.css">
-<link rel="stylesheet" href="/css/customer/user.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/bootstrap.min.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/customer/home.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/customer/user.css">
 
 </head>
 <body>
@@ -197,8 +197,8 @@
 	
 	<!-- JS file -->
 	<script src="http://code.jquery.com/jquery.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
-	<script src="/js/plugins/jquery.tmpl.min.js"></script>
-	<script src="/js/customer/AddUser.js"></script>
+	<script src="<%=request.getContextPath()%>/js/bootstrap.min.js"></script>
+	<script src="<%=request.getContextPath()%>/js/plugins/jquery.tmpl.min.js"></script>
+	<script src="<%=request.getContextPath()%>/js/customer/AddUser.js"></script>
 </body>
 </html>
